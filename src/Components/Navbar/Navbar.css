@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #252525;
+    display: flex;
+    justify-content: flex-end;
+    height: 64px;
+    z-index: 1;
+}
+
+.navbar > div {
+   display: flex;
+   flex-direction: column;
+   margin: 12px;
+   justify-content: center;
+   font-size: 1.4em;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
