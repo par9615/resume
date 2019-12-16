@@ -9,8 +9,26 @@ class ImageContainer extends React.Component {
 
     render() {
         return (
-            <div>
-                <img src={bigImage} height="120px"></img>
+            <div className="image-container">
+                <img className="image" src={bigImage} height="250px"></img>
+            </div>
+        );
+    }
+}
+
+class DescriptionContainer extends React.Component {
+    constructor(props){
+        super(props);
+    }
+
+    render() {
+        return (
+            <div className="description-container">
+                <h1 id="title">Miguel Hernández</h1>
+                <h2 id="subtitle">Developer</h2>
+                <p id="description">
+                    Ad laborum nulla magna veniam ipsum ex voluptate cillum. Occaecat ex cillum aliquip quis quis nisi eiusmod duis ipsum aliqua labore amet irure. Anim sit amet incididunt ea.
+                </p>
             </div>
         );
     }
@@ -25,7 +43,8 @@ class AboutMe extends React.Component {
     render() {
         return (
             <div className="about-me">
-                <ImageContainer></ImageContainer>
+                <ImageContainer/>
+                <DescriptionContainer/>
             </div>
         )
     }

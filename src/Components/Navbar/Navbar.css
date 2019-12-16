@@ -1,9 +1,12 @@
 .navbar{
-    background-color: #252525;
+    position: fixed;
+    background-color: #393e46;
     display: flex;
     justify-content: flex-end;
     height: 64px;
+    width: 100%;
     z-index: 1;
+    opacity: 0.9;
 }
 
 .navbar > div {
@@ -16,4 +19,7 @@
    font-family: 'Montserrat', sans-serif;
 }
 
+.navbar > div:hover {
+    color: #12e6c8;
+}
 

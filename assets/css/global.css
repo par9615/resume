@@ -24,3 +24,23 @@ body {
   widows: 100vw;
   background-color: whitesmoke;
 }
+
+h1 {
+  font-family: "Montserrat";
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Montserrat";
+  color: white;
+  margin: 0;
+}
+
+p {
+  font-family: "Zilla Slab";
+  color: white;
+  letter-spacing: 0.7px;
+
+}
+

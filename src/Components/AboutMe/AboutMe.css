@@ -1,6 +1,76 @@
 .about-me{
     position: relative;
+    display: flex;
     width: 100%;
     height: 100%;
     background-color: #252525;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.image{
+    border-radius: 50%;
+    margin-left: 20%;
+    animation: leftFadeIn 1.5s ease;
+}
+
+#title{
+    
+    animation: rightFadeIn 1s ease;
+}
+
+#subtitle{
+    color: #12e6c8;
+    opacity: 0;
+    animation: rightFadeIn 1s ease 0.2s forwards;
+}
+
+#description{
+    margin-right: 10%;
+    max-width: 500px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+
+}
+
+@keyframes leftFadeIn {
+    from {
+        opacity: 0;
+        margin-left: 10%;
+    }
+    to {
+        opacity: 1;
+        margin-left: 20%;
+    }
+}
+
+@keyframes rightFadeIn {
+    from {
+        opacity: 0;
+        margin-left: 20%;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0%;
+    }
+}
+
+@keyframes fadeIn {
+    from{ opacity: 0;}
+    to {opacity: 1;}
 }

@@ -15,6 +15,7 @@ const App = () => {
             <div className="screen-container">
                 <Portfolio></Portfolio>
             </div>
+            
         </div>
     );
 }
