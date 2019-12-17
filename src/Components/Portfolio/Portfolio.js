@@ -10,12 +10,14 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div className="portfolio">
-                <p>Portfolio</p>
+                <div >
+
+                </div>
             </div>
         )
     }
 
-    
+
 }
 
 export default Portfolio;

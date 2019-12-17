@@ -10,12 +10,12 @@ const App = () => {
         <div>
             <div className="screen-container">
                 <Navbar></Navbar>
-                <AboutMe></AboutMe>
+                <AboutMe ></AboutMe>
             </div>
             <div className="screen-container">
                 <Portfolio></Portfolio>
             </div>
-            
+
         </div>
     );
 }

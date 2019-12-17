@@ -19,16 +19,32 @@ class ImageContainer extends React.Component {
 class DescriptionContainer extends React.Component {
     constructor(props) {
         super(props);
+        this.state = { currentIndex: 0 };
+    }
+
+    componentDidMount() {
+        setInterval(() => this.incrementIndex(), 5000);
+    }
+
+    incrementIndex() {
+        console.log(this.state.currentIndex);
+        this.setState((prevState) => ({
+            currentIndex: (prevState.currentIndex + 1) % this.props.titles.length
+        }));
     }
 
     render() {
         return (
             <div className="description-container">
-                <h1 id="title">Miguel Hernández</h1>
-                <h2 id="subtitle">Developer</h2>
+                <h4>HELLO</h4>
+                <h1 id="title">I'm Miguel Hernández</h1>
+                <h2 id="subtitle">{this.props.titles[this.state.currentIndex]}</h2>
                 <p id="description">
                     Ad laborum nulla magna veniam ipsum ex voluptate cillum. Occaecat ex cillum aliquip quis quis nisi eiusmod duis ipsum aliqua labore amet irure. Anim sit amet incididunt ea.
                 </p>
+                <div>
+                    <button className="button" id="download-cv">Download CV</button>
+                </div>
             </div>
         );
     }
@@ -44,7 +60,7 @@ class AboutMe extends React.Component {
         return (
             <div className="about-me">
                 <ImageContainer />
-                <DescriptionContainer />
+                <DescriptionContainer titles={["Mobile Developer", "Web Developer", "Dreamer", "Just a guy"]} />
             </div>
         )
     }
