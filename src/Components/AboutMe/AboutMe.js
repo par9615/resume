@@ -10,14 +10,14 @@ class ImageContainer extends React.Component {
     render() {
         return (
             <div className="image-container">
-                <img className="image" src={bigImage} height="250px"></img>
+                <img className="image" src={bigImage}></img>
             </div>
         );
     }
 }
 
 class DescriptionContainer extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
@@ -43,8 +43,8 @@ class AboutMe extends React.Component {
     render() {
         return (
             <div className="about-me">
-                <ImageContainer/>
-                <DescriptionContainer/>
+                <ImageContainer />
+                <DescriptionContainer />
             </div>
         )
     }
