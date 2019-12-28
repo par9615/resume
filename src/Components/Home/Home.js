@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutMe.css';
+import './Home.css';
 import bigImage from '../../../assets/images/big-image.jpg';
 
 class ImageContainer extends React.Component {
@@ -35,15 +35,14 @@ class DescriptionContainer extends React.Component {
 
     render() {
         return (
-            <div className="description-container">
-                <h4>HELLO</h4>
-                <h1 id="title">I'm Miguel Hernández</h1>
-                <h2 id="subtitle">{this.props.titles[this.state.currentIndex]}</h2>
-                <p id="description">
-                    Ad laborum nulla magna veniam ipsum ex voluptate cillum. Occaecat ex cillum aliquip quis quis nisi eiusmod duis ipsum aliqua labore amet irure. Anim sit amet incididunt ea.
-                </p>
-                <div>
-                    <button className="button" id="download-cv">Download CV</button>
+            <div className="home-container">
+                <div className="center-box">
+                    <h4>HELLO</h4>
+                    <h1 id="title">I'm Miguel Hernández</h1>
+                    <h2 id="subtitle">{this.props.titles[this.state.currentIndex]}</h2>
+                    <div>
+                        <button className="button" id="download-cv">Download CV</button>
+                    </div>
                 </div>
             </div>
         );
@@ -51,7 +50,7 @@ class DescriptionContainer extends React.Component {
 }
 
 
-class AboutMe extends React.Component {
+class Home extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -59,7 +58,6 @@ class AboutMe extends React.Component {
     render() {
         return (
             <div className="about-me">
-                <ImageContainer />
                 <DescriptionContainer titles={["Mobile Developer", "Web Developer", "Dreamer", "Just a guy"]} />
             </div>
         )
@@ -67,4 +65,4 @@ class AboutMe extends React.Component {
 
 }
 
-export default AboutMe;
+export default Home;

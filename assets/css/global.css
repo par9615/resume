@@ -53,17 +53,17 @@ p {
 .button{
   display: inline-block;
   padding: 8px;
-  border-radius: 16px;
+  border-radius: 32px;
   font-family: "Montserrat";
   font-weight: 600;
-  background-color: #12e6c8;
-  color: #252525;
+  color: white;
+  background-color: transparent;
   border-style: solid;
   border-color: #12e6c8;
   margin-top: 20px;
 }
 
 .button:hover{
-  color: white;
-  background-color: transparent;
+  background-color: #12e6c8;
+  color: #252525;
 }
