@@ -5,13 +5,17 @@ import reactLogo from '../../../assets/images/react.png';
 
 const projects = [
     {
-        title: "Project A",
-        description: "Non consequat cupidatat adipisicing cupidatat ea proident labore dolore excepteur reprehenderit officia amet. Minim occaecat nulla sit enim eiusmod. Aliquip anim nisi aute nisi irure sint deserunt aliquip anim labore anim fugiat. Ipsum in Lorem sunt esse ut non esse do dolor velit consectetur excepteur duis. Anim esse aute proident labore nulla officia duis eiusmod. Non eu commodo aute veniam nulla laboris laboris sunt dolor irure eu pariatur. Proident pariatur minim qui velit laboris enim veniam nulla sint aliqua consequat excepteur.",
+        title: "Geographic profiling tool",
+        description: "Developed a web page which determines the most likely zones in a map where a serial criminal could live, based on the geographic position of their crimes according to te Rossmo's formula",
         image: "http://lorempixel.com/512/512/",
         tools: [
             {
-                name: "React",
+                name: "HTML",
                 image: reactLogo
+            },
+            {
+                name: "JavaScript",
+                image: "http://lorempixel.com/512/512/"
             },
             {
                 name: "CSS",
@@ -21,28 +25,33 @@ const projects = [
         ]
     },
     {
-        title: "Project B",
-        description: "Laborum voluptate voluptate in elit. Adipisicing labore nostrud commodo aute officia et ex occaecat voluptate enim occaecat ipsum. Incididunt velit ullamco ad commodo. Nostrud labore deserunt elit minim.",
+        title: "Drones control programming language",
+        description: "Contribuited in the programming language design by writing the language grammar and took part in the implementation of the parser.",
         image: "http://lorempixel.com/512/512/",
         tools: [
             {
-                name: "Flutter",
+                name: "Python",
                 image: "http://lorempixel.com/512/512/"
             },
-            {
-                name: "BLoC",
-                image: "http://lorempixel.com/512/512/"
-            },
-            {
-                name: "Dart",
-                image: "http://lorempixel.com/512/512/"
-            }
-
-
 
         ]
 
-    }
+    },
+    {
+        title: "Electrical contractor business database",
+        description: "Designed the relational database schema along with stored procedures to support some of the ERP processes.",
+        image: "http://lorempixel.com/512/512/",
+        tools: [
+            {
+                name: "SQL",
+                image: "http://lorempixel.com/512/512/"
+            },
+
+        ]
+
+    },
+
+
 ];
 
 class Portfolio extends React.Component {

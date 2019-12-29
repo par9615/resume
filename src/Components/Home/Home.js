@@ -57,7 +57,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div className="about-me">
+            <div className="home">
                 <DescriptionContainer titles={["Mobile Developer", "Web Developer", "Dreamer", "Just a guy"]} />
             </div>
         )

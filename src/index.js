@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
+import AboutMe from './Components/AboutMe/AboutMe';
 import Portfolio from './Components/Portfolio/Portfolio';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
@@ -15,6 +16,9 @@ const App = () => {
             <div className="screen-container">
                 <Navbar></Navbar>
                 <Home ></Home>
+            </div>
+            <div className="screen-container">
+                <AboutMe></AboutMe>
             </div>
             <div className="screen-container">
                 <Portfolio></Portfolio>

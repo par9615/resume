@@ -1,0 +1,44 @@
+.about-me{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: #252525;
+
+}
+
+.about-me #left{
+    display: flex;
+    align-items: center;
+    margin-top: -10%;
+}
+
+.about-me #right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+}
+
+.about-me #portrait {
+    border-radius: 0px 8px 35px 0px;
+}
+
+.about-me #description{
+}
+
+.about-me #experience{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.about-me #experience #experience-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
