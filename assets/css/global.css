@@ -40,14 +40,15 @@ h2 {
 h4 {
   font-family: "Montserrat";
   margin: 0;
-  color: white;
+  color: white;  
 }
 
 p {
   font-family: "Zilla Slab";
   color: white;
   letter-spacing: 0.7px;
-
+  text-align: justify;
+  font-size: 1.2rem;
 }
 
 .button{

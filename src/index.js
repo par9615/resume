@@ -4,11 +4,14 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Portfolio from './Components/Portfolio/Portfolio';
+import Contact from './Components/Contact/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import '../assets/css/global.css';
 
-library.add(faChevronLeft, faChevronRight);
+library.add(fab, fas);
+
 
 const App = () => {
     return (
@@ -22,6 +25,9 @@ const App = () => {
             </div>
             <div className="screen-container">
                 <Portfolio></Portfolio>
+            </div>
+            <div className="">
+                <Contact></Contact>
             </div>
 
         </div>

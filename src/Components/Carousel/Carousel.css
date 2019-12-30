@@ -47,13 +47,13 @@
     font-size: 2em;
 }
 
-#upper {
+.carousel-container #upper {
     display: flex;
     flex-direction: row;
     padding: 8px;
 }
 
-#lower {
+.carousel-container #lower {
     display: flex;
     flex-direction: row;
     align-items: center;
