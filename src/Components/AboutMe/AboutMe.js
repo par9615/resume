@@ -43,22 +43,33 @@ class AboutMe extends React.Component {
                     </div>
                     <div id="right">
                         <div id="description">
-                            <h2>Who am I?</h2>
+                            <h1>Who am I?</h1>
                             <p>I'm dedicated, versatile, curious computer systems graduate from ITESO and software engineer. </p>
                         </div>
                         <div id="programming-languages">
+                            <h2>Programming languages</h2>
                             <h4>C/C++</h4>
                             <ProgressBar progress="85"></ProgressBar>
+                            <h4>JavaScript</h4>
+                            <ProgressBar progress="60"></ProgressBar>
                             <h4>Python</h4>
                             <ProgressBar progress="65"></ProgressBar>
                             <h4>SQL</h4>
-                            <ProgressBar progress="60"></ProgressBar>
+                            <ProgressBar progress="65"></ProgressBar>
+
+
+                            <h2>Frameworks & tools</h2>
+                            <h4>Flutter</h4>
+                            <ProgressBar progress="80"></ProgressBar>
+                            <h4>React</h4>
+                            <ProgressBar progress="50"></ProgressBar>
+
                         </div>
                     </div>
                 </div>
                 <div id="lower">
                     <div id="experience">
-                        <h2>Experience</h2>
+                        <h1>Experience</h1>
                         <div id="experience-list">
                             {this.buildFlipCards()}
                         </div>

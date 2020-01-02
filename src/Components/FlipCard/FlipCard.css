@@ -53,7 +53,7 @@
 }
 
 .flip-card-back {
-    background-color: #0EA892;
+    background-color: #12e6c8;
     transform: rotateY(180deg);
 }
 

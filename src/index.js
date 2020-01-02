@@ -20,11 +20,8 @@ const App = () => {
                 <Navbar></Navbar>
                 <Home ></Home>
             </div>
-            <div className="screen-container">
+            <div>
                 <AboutMe></AboutMe>
-            </div>
-            <div className="screen-container">
-                <Portfolio></Portfolio>
             </div>
             <div className="">
                 <Contact></Contact>

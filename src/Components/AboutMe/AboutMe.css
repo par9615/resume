@@ -64,3 +64,13 @@
     width: 100%;
     margin-top: 20px;
 }
+
+#programming-languages > h2 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+#programming-languages > h4 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}

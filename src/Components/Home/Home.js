@@ -41,7 +41,7 @@ class DescriptionContainer extends React.Component {
                     <h1 id="title">I'm Miguel Hernández</h1>
                     <h2 id="subtitle">{this.props.titles[this.state.currentIndex]}</h2>
                     <div>
-                        <button className="button" id="download-cv">Download CV</button>
+                        <a href="https://docs.google.com/document/d/1CBx5rL4qFLBeZkxWlghA-OVhg8DI_DJtF_yLUNe7Y5g/export?format=pdf" download="resume.pdf"><button className="button" id="download-cv">Download CV</button></a>
                     </div>
                 </div>
             </div>
