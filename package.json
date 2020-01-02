@@ -15,6 +15,7 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.3.0",
     "file-loader": "^5.0.2",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.8.0",
@@ -28,6 +29,8 @@
     "webpack-merge": "^4.2.2"
   },
   "scripts": {
-    "dev": "yarn webpack-dev-server --inline --progress --config './webpack/dev.config.js'"
+    "dev": "yarn webpack-dev-server --inline --progress --config './webpack/dev.config.js'",
+    "predeploy": "yarn webpack --config './webpack/prod.config.js'",
+    "deploy": "yarn gh-pages -d './dist'"
   }
 }
