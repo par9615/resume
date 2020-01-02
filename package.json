@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Miguel Hernández",
   "license": "MIT",
+  "homepage": ".",
   "dependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
