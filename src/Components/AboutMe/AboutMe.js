@@ -17,7 +17,7 @@ var jobs = [
         image: argesLogo,
         title: "Arges",
         subtitle: "Mobile Developer",
-        description: "Developed a soccer betting app for iOS. Currently, I'm working in a hybrid app where I use Flutter for the UI."
+        description: "Developed a soccer betting app for iOS. Currently, I'm working on a hybrid app where I use Flutter for the UI."
     },
     {
         title: "Just be patient",
