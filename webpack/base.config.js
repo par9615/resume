@@ -5,8 +5,8 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(process.cwd(), 'dist'),
-        filename: "main/js/[name].[hash:4].js",
-        chunkFilename: "main/js/[name].[hash:4].chunk.js",
+        filename: "[name].[hash:4].js",
+        chunkFilename: "[name].[hash:4].chunk.js",
         publicPath: "/"
 
     },

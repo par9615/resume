@@ -8,6 +8,12 @@
     z-index: 1;
     transition: background-color 0.6s;
 }
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: none;
+    }
+}
+
 
 .navbar-black{
     background-color: #393e46 !important;
@@ -28,3 +34,6 @@
     color: #12e6c8;
 }
 
+.navbar > #selected {
+    color: #12e6c8;
+}

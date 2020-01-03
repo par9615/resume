@@ -3,19 +3,21 @@ import './AboutMe.css';
 import FlipCard from '../FlipCard/FlipCard.js';
 import ProgressBar from '../ProgressBar/ProgressBar.js';
 import hpLogo from '../../../assets/images/hp-logo.png';
-import argesLogo from '../../../assets/images/arges-logo.png'
+import argesLogo from '../../../assets/images/arges-logo.png';
+import me from '../../../assets/images/me.jpg';
+
 var jobs = [
     {
         image: hpLogo,
         title: "HP Inc.",
         subtitle: "Physical Claims Intern",
-        description: "Fugiat laboris velit duis magna commodo veniam eu sunt mollit qui. Ut sit aliqua reprehenderit quis qui in in amet voluptate."
+        description: "Implemented web scrapers to get documents, reports, and perform automatic tasks. Additionally, created a web page to download documents and track their status."
     },
     {
         image: argesLogo,
         title: "Arges",
         subtitle: "Mobile Developer",
-        description: "Fugiat laboris velit duis magna commodo veniam eu sunt mollit qui. Ut sit aliqua reprehenderit quis qui in in amet voluptate."
+        description: "Developed a soccer betting app for iOS. Currently, I'm working in a hybrid app where I use Flutter for the UI."
     },
     {
         title: "Just be patient",
@@ -36,15 +38,15 @@ class AboutMe extends React.Component {
 
     render() {
         return (
-            <div className="about-me">
+            <div className="about-me" id="about-me">
                 <div id="upper">
                     <div id="left">
-                        <img id="portrait" src="http://lorempixel.com/384/512/"></img>
+                        <img id="portrait" src={me}></img>
                     </div>
                     <div id="right">
                         <div id="description">
                             <h1>Who am I?</h1>
-                            <p>I'm dedicated, versatile, curious computer systems graduate from ITESO and software engineer. </p>
+                            <p>I'm dedicated, versatile, curious software engineer graduate from ITESO. I strive to write cleaner and more optimized code in each product I collaborate in, which drives me to always keep discovering and learning new tools and use them as best I can.</p>
                         </div>
                         <div id="programming-languages">
                             <h2>Programming languages</h2>

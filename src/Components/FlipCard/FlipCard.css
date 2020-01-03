@@ -60,6 +60,16 @@
 .flip-card #card-image {
     width: 70%;
     height: auto;
-
 }
 
+.flip-card-back > h4 {
+    color: #252525;
+}
+
+.flip-card-back > h6 {
+    color: #252525;
+}
+
+.flip-card-back > p {
+    color: #252525;
+}

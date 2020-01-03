@@ -7,8 +7,8 @@
 .progress-bar{
     background-color: #12e6c8;
     height: 100%;
-    width: 70%;
     color: #252525;
     font-size: large;
     font-family: "Montserrat";
+    font-weight: 600;
 }
